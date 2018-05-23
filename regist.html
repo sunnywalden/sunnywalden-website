@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SunnyWalden user register page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+    <link href="http://fonts.googleapis.com/css?family=Abel|Open+Sans:400,600" rel="stylesheet" />
+    <style>
+        /* http://css-tricks.com/perfect-full-page-background-image/ */
+        html {
+            background: url(img/regback.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        body {
+            padding-top: 20px;
+            font-size: 16px;
+            font-family: "Open Sans",serif;
+            background: transparent;
+        }
+        h1 {
+            font-family: "Abel", Arial, sans-serif;
+            font-weight: 400;
+            font-size: 40px;
+        }
+        /* Override B3 .panel adding a subtly transparent background */
+        .panel {
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+        .margin-base-vertical {
+            margin: 40px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 panel panel-default">
+                <h2 class="margin-base-vertical" style="text-align: center">We could be better with your support</h2>
+                <form class="margin-base-vertical" action="regist.php" method="post">
+                    <p class="input-group">
+                        <span class="input-group-addon"><span class="icon-envelope"></span></span>
+                        <input type="text" class="form-control input-lg" id="count" name="count" placeholder="username" />
+                        <input type="text" class="form-control input-lg" id="name" name="name" placeholder="your name" />
+                        <input type="text" class="form-control input-lg" id="email" name="email" placeholder="your email" />
+                        <input type="text" class="form-control input-lg" id="mobile" name="mobile" placeholder="your phone number" />
+                        <input type="text" class="form-control input-lg" id="birth" name="birth" placeholder="your birth day like: 1990-01-14" />
+                        <input type="password" class="form-control input-lg" id="passwd" name="passwd" placeholder="password" />
+<!--                        <input type="text" class="form-control input-lg" name="passag" placeholder="password again" /> -->
+                    </p>
+                    <p class="help-block text-center"><small>We won't send you any advertisment.</small></p>
+                    <p class="text-center">
+                        <button type="submit" class="btn btn-success btn-lg">Keep me posted</button>
+                    </p>
+                    </span>
+                </form>
+                <div class="margin-base-vertical">
+                    <small class="text-muted" style="text-align: center"><a href="index.html">SunnyWalden-阳光下的瓦尔登</a>. </small>
+                </div>
+            </div><!-- //main content -->
+        </div><!-- //row -->
+    </div> <!-- //container -->
+</body>
+</html>

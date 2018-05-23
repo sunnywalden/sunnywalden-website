@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+<head>
+<title>致青春</title>
+</head>
+<body align="center">
+	<section id="player">
+  <video id="media" width="1024" height="768" controls="controls"> 
+    <source src="e:\王菲-致青春.mp4"/>
+  	Your browser does not support the video tag.
+  </video> 
+</section>
+</body>
+</html>

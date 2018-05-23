@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html;charset=utf-8">  
+<meta name="movie" content="Henry's theater third episode"/>
+<style type="text/css">
+#tb  {
+	border:  1px auto auto;
+	background-color:  pink;
+}
+#td1  {
+  background-color:  orange;
+  text-align: center;
+  font-size: 2em;
+  font:  purple;
+}
+#a1  {
+  font:  "楷体" #6699FF 2em;
+}
+td  {
+  background-color:  dimgray;
+  text-align: center;
+  font-size: 20px;
+}
+th {
+	border:  1px auto auto;
+/*ckground-color:  #33FF66;*/
+}
+h1 {
+	text-align: center;
+	font-size: 2.5em;
+	}
+#ig1  {
+  width:  83%;
+  height:  auto;
+}
+img {
+	height: auto;
+	width:  auto;
+  float:  left;
+  }
+#menu {
+font-size: 15px;
+font-weight: bolder;
+}
+#menu li{
+list-style-image: none;
+list-style-type: none;
+/*background-color: #999999;*/
+border-right-width: 10px;
+border-right-style: solid;
+border-right-color: #999999;
+float: center;
+}
+#menu li a{
+color: gold;
+text-decoration: none;
+margin: 1px;
+padding-top: 8px;
+display: block; /* 作为一个块 */
+padding-right: 40px; /* 设置块的属性 */
+padding-bottom: 1px;
+padding-left: 40px;
+}
+p1{
+color: red;
+font-size: 1.5em;
+}
+p2{
+color: dimgray;
+font:  "华文行楷" 1em #336600;
+text-decoration: none;
+margin: 5px;
+padding-top: 8px;
+display: block; /* 作为一个块 */
+padding-right: auto; /* 设置块的属性 */
+padding-bottom: 8px;
+padding-left: 5px;
+}
+	
+#menu li a:hover{
+background-color: #0099CC;
+}
+</style>
+<title>Henry电影院</title>
+<table id="tb">
+	<tr>
+		<td id="td1" colspan="2">欢迎光临Henry个人家庭影院</td>
+  </tr>
+  <!--<frameset rows="20%,80%>
+-->
+<!--	<frame>-->
+   
+   	 <tr>
+   	 	<td>
+   	 		<a href="http://v.qq.com/cover/q/qh4ihwczkxluu3s.html?vid=y0012rvhay5">《致我们终将逝去的青春》<br/>影片观赏</a>
+   	 	<br/>
+      <br/>
+   	 		导  演:<br>赵薇<br>主  演:<br>赵又廷<br>杨子姗<br>  韩庚<br>江疏影<br>包贝尔	
+   	   </td>		
+   	 		
+  
+<!--  </frame> -->
+
+<!--  <frame> -->
+  
+ 
+    <th>
+
+  	
+<!--    <ul id="menu"> -->
+<!--    	<li> -->
+
+<!--    	</li>  -->
+    	<img src="致青春.jpg"/>
+
+<!--    </br> -->
+<!--    	<p1 id="describe">致我们终将逝去的青春</p1>
+    </br>
+-->
+    <a id="a1" href="girl.html">致青春MV</a>
+    <br/>
+    <br/>
+    	<p2>《致我们终将逝去的青春》是作家辛夷坞创作的一部小说。十八岁，郑微对阮阮说，“我是谁，我是天下无敌的玉面小飞龙，有什么我得不到？” 二十二岁，她站在山顶上喊：“美国，万恶的资本主义国家，我恨你，把我的男人还给我！” 二十六岁，微醺，她看着他，“我不可能一次又一次相信你，不可能……”</p2>
+    <br/>
+    </th>
+    </tr>
+    <tr>
+    <td>
+    <a href="http://www.iqiyi.com/v_19rro1v2ew.html?vfm=2008_aldbd">《匆匆那年》<br/>影片观赏</a>
+   	  <br/>
+      <br/>
+   	   	 导  演:<br>张一白<br>主演:<br>彭于晏<br>倪妮<br> 郑恺<br>魏晨<br>张子萱
+    </td>
+    <th>
+<!--    	<li> -->
+
+<!--    	</li> -->
+      <img id="ig1" src="匆匆那年.jpg"/>
+    <a id="a1" href="mv.html">匆匆那年MV</a>
+    <br/>
+    <br/>
+    
+<p2>年近三十的陈寻在90后女孩七七追问下，回忆起了自己与方茴的同居时光。 当年近而立的陈寻再次回忆这段纯真感情时加入了思考和反省。这既是陈寻的青春记忆，也是属于80后整整一代人的匆匆那年。</p2>
+    </th>
+  </tr>
+<!--    </ul> -->
+ 		
+  
+<!--  </frame> -->
+
+<!-- </frameset> -->
+</table>
+</html>

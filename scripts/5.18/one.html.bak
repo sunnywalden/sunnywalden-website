@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv=Content-Type content="text/html;charset=utf-8">
+<style type="text/css">
+h1 {
+	text-align: center;
+	font-size: 1.5em;
+	font-style: "楷体";
+	color: red;
+}
+#all {
+	text-align: center;
+	font-size: 1.2em;
+	font-style: "华文行楷";
+	background: url("拜仁.jpeg");
+	background-repeat: no-repeat;
+	background-position: center 0:
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 747px;
+}
+form {
+  background-color: gold;
+  width: 300px;
+  height: auto;
+  margin: 0px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: dimgray;
+}
+form button {
+	font-size: 0.8em;
+	background-color: orange;
+}
+</style>
+<title>信用卡系统登录主页</title>
+</head>
+<div id="all">
+<br>
+<h1>Henry's personal creditcard system login page</h1>
+
+
+
+
+<br>
+<form name="login" action="index.html" method="post">
+<p>账&emsp;号&emsp;<input id="account" type="text" name="account"/></p>
+<p>密&emsp;码&emsp;<input id="passwd" type="password" name="passwd"/></p>
+<input type="button" value="登&emsp;录" onclick="checkAccount();"/>
+<input type="reset" value="重&emsp;置"/>
+<input type="button" value="忘记密码？" onclick="accountBak.html"/><a href="accountBak.html"></input>
+</form>
+</div>
+javascript:jmpGo();
+<script>
+var acinfo={account:"sunnywalden",password:"111111"};
+function checkAccount(){
+var ac=document.getElementById("account").value;
+var pw=document.getElementById("passwd").value;
+//var oa="sunnywalden";
+//var op="111111";
+if(ac===acinfo.account){
+	if(pw===acinfo.password){
+		
+		login.submit();
+		alert("sunnywalden,欢迎回来！");
+	}
+	else{
+		alert("密码错误");
+		return false;
+	}
+}
+else{
+	alert("账号错误");
+	return false;
+}
+}
+
+function updateAccount(){
+var ac=document.getElementById("account").value;
+var pw=document.getElementById("passwd").value;
+//var oa="sunnywalden";
+//var op="111111";
+if(ac===acinfo.account){
+	if(pw===acinfo.password){
+		
+		login.submit();
+		alert("sunnywalden,欢迎回来！");
+	}
+	else{
+		alert("密码错误");
+		return false;
+	}
+}
+else{
+	alert("账号错误");
+	return false;
+}
+}
+
+function jmpGo(){
+	if(checkAccount()===true) {
+  window.location="index.html";
+  }
+}
+</script>
+
+</html>

@@ -1,0 +1,22 @@
+<?php
+$account=$_POST["count"];
+$password=$_POST["passwd"];
+mysql_connect("localhost","walden","walden0209")
+ /*请修改用户名和密码*/ 
+or die("无法连接数据库，请重试");
+
+mysql_select_db("walden") 
+or die("无法选择数据库，请重试"); 
+$query="select count from sunny where count=$account/";
+　/*从数据库中搜索相同名字的用户资料*/ 
+$result=mysql_query($query); 
+$numrows=mysql_num_rows($result); 
+if($numrows!=0) /*找到了当然就是有人先注册了相同的名字*/ 
+{echo 已有人注册此名，请重新选择名字!;} 
+else 
+{$query="insert into sunny(count,passwd) values($account,$password)";
+　/*找不到相同的就输入新的用户资料*/ 
+mysql_query($query); 
+echo 注册成功; 
+echo 请登录!;} 
+?> 

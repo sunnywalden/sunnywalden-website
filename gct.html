@@ -1,0 +1,19 @@
+<!DOCTYPE>
+<HTML>
+ <HEAD>
+  <TITLE> qq 接入 </TITLE>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <script type="text/javascript" src="http://qzonestyle.gtimg.cn/qzone/openapi/qc_loader.js" charset="utf-8" data-callback="true"></script>
+ </HEAD>
+ <BODY>
+ <h1>qq 接入</h1>
+  <script type="text/javascript">
+    if(QC.Login.check()){//如果已登录成功
+        QC.Login.getMe(function(openId, accessToken){
+         alert(["当前登录用户的", "openId为："+openId, "accessToken为："+accessToken].join("\n"));
+       });
+//这里可以调用自己的保存接口
+}
+</script>
+ </BODY>
+</HTML>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+<head>
+<title>匆匆那年</title>
+</head>
+
+<body align="center">
+	<section id="player">
+  <video id="media" width="1024" height="768" controls="controls"> 
+    <source src="e:\王菲-匆匆那年.mp4"/>
+  	Your browser does not support the video tag.
+  </video> 
+</section>
+</body>
+</html>
